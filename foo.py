@@ -13,4 +13,4 @@ class Human:
     def CalcRW(self,obj):
         return "Your RW is "+str((float(obj.height) - 100 + int(obj.age) % 10) * 0.90)
     def CalculateBill(self,obj):
-        return (obj.cap*5)+(obj.tshirt*10)+(int(obj.hoodie)*20)
+        return str((obj.cap*5)+(obj.tshirt*10)+(int(obj.hoodie)*20))
